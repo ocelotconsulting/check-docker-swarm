@@ -20,13 +20,13 @@ Currently the additions to CLI include those supporting
 * To check the status of a docker swarm
 
 ```bash
-node dist/check_docker_swarm.js swarm -z <zerg-uri:port> <swarm-id>
+node dist/check_docker_swarm.js swarm -d <docker-api-uri:port> <swarm-id>
 ```
 
 * To check the status of a docker swarm's service
 
 ```bash
-node dist/check_docker_swarm.js service -z <zerg-uri:port> <swarm-id> <service-name>
+node dist/check_docker_swarm.js service -d <docker-api-uri:port> <swarm-id> <service-name>
 ```
 
 ## Install into nagios server
