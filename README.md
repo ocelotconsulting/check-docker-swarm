@@ -34,3 +34,6 @@ node dist/check_docker_swarm.js service -z <zerg-uri:port> <swarm-id> <service-n
 * Ensure you have node.js installed and accessible via the plugin command line.
 
 * Install the check_docker_swarm.js file as a plugin to be configured into separate commands for swarm and service checking.
+
+## Disclaimer
+At this point this project assumes that you have opened the docker sock for insecure http communication (i.e. typically port 2375), future versions will probably incorporate a client certificate for secure communications.
