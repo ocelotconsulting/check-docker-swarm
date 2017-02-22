@@ -1,5 +1,7 @@
 # check-docker-swarm
 
+## Status - IN DEVELOPMENT - all of the code has not been contributed yet (2-22-2017)
+
 ## A nagios monitoring plugin which checks the status of a docker swarm and services.
 This toolset will be used by nagios to perform periodic checks of docker swarms and services they are running.
 
